@@ -63,6 +63,17 @@ return [
 			'prefix'    => '',
 			'strict'    => true,
 		],
+		'trade' => [
+			'driver'    => 'mysql',
+			'host'      => env('DB_HOST', '192.168.0.22'),
+			'database'  => env('DB_DATABASE', 'trade'),
+			'username'  => env('DB_USERNAME', 'dev_gmf'),
+			'password'  => env('DB_PASSWORD', '123456'),
+			'charset'   => 'utf8',
+			'collation' => 'utf8_general_ci',
+			'prefix'    => '',
+			'strict'    => true,
+		],
 
 		'pgsql' => [
 			'driver'   => 'pgsql',

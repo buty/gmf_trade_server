@@ -15,9 +15,12 @@ Route::get('/', 'WelcomeController@index');
 
 Route::get('home', 'HomeController@index');
 
+Route::get('home/kgi', 'HomeController@kgi');
+
 Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
 	'stock'=> 'StockController',
 	'stockcode' => 'StockCodeController',
+	'kgi' => 'KgiController'
 ]);

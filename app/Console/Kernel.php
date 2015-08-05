@@ -15,7 +15,8 @@ class Kernel extends ConsoleKernel {
 		'App\Console\Commands\RsyncEntrust',
 		'App\Console\Commands\TradeCalculate',
 		'App\Console\Commands\ProtectDGZQ',
-		'App\Console\Commands\MarketData'
+		'App\Console\Commands\MarketData',
+		'App\Console\Commands\KgiOrder',
 	];
 
 	/**
